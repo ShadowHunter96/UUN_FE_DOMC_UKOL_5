@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* index.css */
+:root {
+  --primary-bg-color: #121212; /* Tmavá černá */
+  --primary-text-color: #ffffff; /* Bílý text */
+  --secondary-bg-color: #1c1c1c; /* Jemnější černá */
+}
+
+body.dark-mode {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.navbar {
+  background-color: var(--primary-bg-color) !important;
+}
+
+.card {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+  border-color: #333; /* Hrana karet */
+}
+
+.table {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+}
+
+button {
+  color: var(--primary-text-color);
+}
